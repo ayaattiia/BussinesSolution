@@ -1,0 +1,66 @@
+.card {
+    background-image: url('../img/BG.png');
+    background-size: cover;  // Cela permet à l'image de couvrir toute la zone de l'élément
+    background-position: center;  // Cela centre l'image dans l'élément
+    background-repeat: no-repeat;  // Cela empêche l'image de se répéter
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+.input-group {
+    border-radius: 20px;
+    overflow: hidden;
+}
+.input-group-text {
+    background-color: #f0f0f0;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+    width: 45px;
+    text-align: center;
+}
+.form-control {
+    border-radius: 20px;
+    padding: 12px;
+}
+.btn-gradient {
+    background: linear-gradient(to right, #00c6ff, #b026ff);
+    border: none;
+    color: white;
+    border-radius: 20px;
+    padding: 12px;
+    width: 100%;
+}
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.btn-social {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+.btn-facebook { background-color: #3b5998; }
+.btn-twitter { background-color: #1da1f2; }
+.btn-google { background-color: #db4437; }
+.btn-whatsapp { background-color: #25d366; }
+a { color: #0072ff; text-decoration: none; }
+a:hover { text-decoration: underline; }

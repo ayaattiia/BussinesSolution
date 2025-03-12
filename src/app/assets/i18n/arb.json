@@ -1,0 +1,8 @@
+{
+    "general": {
+        "hello" : "hello"
+    },
+    "hello" : {
+        "title" : "home"
+    }
+}
